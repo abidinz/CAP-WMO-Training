@@ -1,0 +1,24 @@
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier></identifier>
+    <sender></sender>
+    <sent></sent>
+    <status></status>
+    <msgType></msgType>
+    <scope></scope>
+    <info>
+        <language></language>
+        <category></category>
+        <event></event>
+        <urgency></urgency>
+        <severity></severity>
+        <certainty></certainty>
+        <effective></effective>
+        <headline></headline>
+        <description></description>
+        <instruction></instruction>
+        <area>
+            <areaDesc></areaDesc>
+            <polygon></polygon>
+        </area>
+    </info>
+</alert>

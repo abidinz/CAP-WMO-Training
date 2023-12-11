@@ -1,0 +1,42 @@
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>urn:oid:2.49.0.1.360.0.2023.12.09.05.29.13</identifier>
+    <sender>admin@signature.bmkg.go.id</sender>
+    <sent>2023-12-09T05:29:13+00:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <info>
+        <language>en</language>
+        <category>Met</category>
+        <event>Waspada Hujan Lebat - Moderate</event>
+        <urgency>Immediate</urgency>
+        <severity>Moderate</severity>
+        <certainty>Likely</certainty>
+        <effective>2023-12-10T00:00:00+00:00</effective>
+        <headline>Alert Status Aceh</headline>
+        <description>It is hard to drive a vehicle on the street.; Some groups of people are
+            isolated.; House and building start to be damaged; Some people lose their livelihoods
+            and livestock.; Low bridges cannot be crossed.; Traffic disruption because the main road
+            is flooded or closed.; Roads and bridges start to be damaged.; Medium scale and mid term
+            disturbances at clean water, electricity, and gas services.; Medium scale and mid term
+            disturbances at school and hospital operational.; Damage begin to occur on river
+            embankments.; Landslides, rock avalanches, or soil erosio occur on a medium scale.;
+            Infectious diseases begin to occur.; River flow volume increases/flood occur.; There is
+            damage to some plants.; Siltation occurs on rivers and dams that they don't function.;`
+            There is a flow of debris, lava, or mud on a medium scale.; Flights are canceled or
+            postponed.; Train trips are canceled.; Disruptions in port activities (ships,
+            fisheries); Water pools occur in coastal areas or lowlands in medium scale.; Dangerous
+            flood flows disrupt community activities in medium scale.</description>
+        <instruction>Stay calm and alert.; Share / exchange information with neighbors around the
+            house.; Be careful when doing activities outside the home.; Updating information through
+            mass media and social media.; Looking for information through parties related to
+            disaster.; Do not move outside the house if it is not urgent.; Coordinate with disaster
+            related parties.</instruction>
+        <area>
+            <areaDesc>Kecamatan Teunom, Aceh Jaya, Aceh; Kecamatan Woyla Barat, Aceh Barat, Aceh</areaDesc>
+            <polygon>-4.732723673553318,105.13335596252512 -5.126767642116054,106.75933252502512
+                -6.656682453964185,107.77007471252512 -7.223783148191284,105.66069971252512
+                -6.045226762536301,104.34234033752512 -4.732723673553318,105.13335596252512</polygon>
+        </area>
+    </info>
+</alert>
