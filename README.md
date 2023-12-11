@@ -12,4 +12,4 @@ or
 
 `python cap-check.py YOUR_FILE CAP_VERSION`
 
-CAP_VERSION options are cap1.0 cap1.1 cap1.2
+CAP_VERSION options are `cap1.0` `cap1.1` `cap1.2`
