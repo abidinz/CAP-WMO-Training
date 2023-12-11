@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alert xmlns = "urn:oasis:names:tc:emergency:cap:1.2">
+		<identifier>Indonesia-InaTEWS-earthquakes-20231207201303</identifier>
+		<sender>info_inatews@bmkg.go.id</sender>
+		<sent>2023-12-07T20:13:03+07:00</sent>
+		<status>Actual</status>
+		<msgType>Alert</msgType>
+		<scope>Public</scope>
+		<addresses>0</addresses>
+                <code>profile:BMKG-Versi:1</code>
+		<info>
+		  <language>id</language>
+	          <category>Geo</category>
+	          <event>Gempabumi</event>
+	          <urgency>Past</urgency>
+	          <severity>Unknown</severity>
+	          <certainty>Observed</certainty>
+                  <onset>2023-12-07T20:13:03+07:00</onset>
+		  <expires>2023-12-15T06:13:03+07:00</expires>
+		  <senderName>BMKG</senderName> 
+		  <headline>Info Gempa kekuatan:5.6 SR, 07-Des-23 20:09:44 WIB, (232 km BaratLaut KEP-TALAUD-SULUT) ::BMKG -- Informasi sementara</headline>
+		  <description>Telah Terjadi gempabumi dengan kekuatan: 5.6 SR, 232 km BaratLaut KEP-TALAUD-SULUT, waktu gempa: 07-Des-23 20:09:44 WIB, Gempa ini tidak berpotensi TSUNAMI (Event ini sudah direview oleh seismologist.)</description>
+		  <instruction>Hati-hati terhadap gempabumi susulan yang mungkin terjadi</instruction>
+		  <web>https://inatews.bmkg.go.id</web>
+		  <contact>https://bmkg-content-inatews.storage.googleapis.com/kontakbmkg.html</contact>
+		  <parameter>
+		     <valueName>EventLocationName</valueName>
+	             <value>Lima wilayah terdekat: 232 km BaratLaut KEP-TALAUD-SULUT, 235 km TimurLaut KEP-SANGIHE-SULUT, 377 km TimurLaut SIAUTAGULANDANGBIARO-SULUT, 479 km TimurLaut MANADO-SULUT, dan 2461 km TimurLaut JAKARTA-INDONESIA</value>
+		  </parameter>
+		  <parameter>
+		     <valueName>ShortLocationName</valueName>
+	             <value>232 km BaratLaut KEP-TALAUD-SULUT</value>
+		  </parameter>
+		  <parameter>
+		     <valueName>EventOriginTime</valueName>
+		     <value>2023-12-07T20:09:44+07:00</value>
+		  </parameter>
+                  <parameter>
+	             <valueName>EventMagnitude</valueName>
+	             <value>5.6</value>
+	          </parameter>
+	          <parameter>
+	             <valueName>EventDepth</valueName>
+	             <value>12 km</value>
+	          </parameter>
+                  <resource>
+                     <resourceDesc>Peta Episenter</resourceDesc>
+                     <mimeType>image/gif</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.gif
+                     </uri>
+                  </resource>
+                  <resource>
+                     <resourceDesc>Peta Intensitas Guncangan</resourceDesc>
+                     <mimeType>image/jpeg</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.mmi.jpg
+                     </uri>
+                  </resource>
+                  <resource>
+                     <resourceDesc>Peta Peak Ground Acceleration</resourceDesc>
+                     <mimeType>image/jpeg</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.pga.jpg
+                     </uri>
+                  </resource>
+                  <resource>
+                     <resourceDesc>Peta Peak Ground Velocity</resourceDesc>
+                     <mimeType>image/jpeg</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.pgv.jpg
+                     </uri>
+                  </resource>
+	          <area>
+	             <areaDesc>232 km BaratLaut KEP-TALAUD-SULUT, 235 km TimurLaut KEP-SANGIHE-SULUT, 377 km TimurLaut SIAUTAGULANDANGBIARO-SULUT, 479 km TimurLaut MANADO-SULUT, dan 2461 km TimurLaut JAKARTA-INDONESIA</areaDesc>
+	             <circle>5.74,125.50 300</circle>
+	          </area>
+	        </info>
+		<info>
+		  <language>en</language>
+	          <category>Geo</category>
+	          <event>Earthquake</event>
+	          <urgency>Past</urgency>
+	          <severity>Unknown</severity>
+	          <certainty>Observed</certainty>
+                  <onset>2023-12-07T20:13:03+07:00</onset>
+		  <expires>2023-12-15T06:13:03+07:00</expires>
+		  <senderName>BMKG</senderName> 
+		  <headline>Earthquake mag:5.6, 07-Des-23 13:09:44 UTC, (232 km NorthWest KEP-TALAUD-SULUT) ::BMKG -- PRELIMINARY REPORT</headline>
+		  <description>An earthquake has occurred with magnitude: 5.6 SR, 232 km NorthWest KEP-TALAUD-SULUT, at: 07-Des-23 13:09:44 UTC, No TSUNAMI threat (This event has been reviewed by a seismologist.)</description>
+		  <instruction>Be careful of aftershocks</instruction>
+		  <web>https://inatews.bmkg.go.id</web>
+		  <contact>https://bmkg-content-inatews.storage.googleapis.com/kontakbmkg.html</contact>
+		  <parameter>
+		     <valueName>EventLocationName</valueName>
+	             <value>Five nearest area: 232 km NorthWest KEP-TALAUD-SULUT, 235 km NorthEast KEP-SANGIHE-SULUT, 377 km NorthEast SIAUTAGULANDANGBIARO-SULUT, 479 km NorthEast MANADO-SULUT, and 2461 km NorthEast JAKARTA-INDONESIA</value>
+		  </parameter>
+		  <parameter>
+		     <valueName>ShortLocationName</valueName>
+	             <value>Mindanao, Philippines</value>
+		  </parameter>
+		  <parameter>
+		     <valueName>EventOriginTime</valueName>
+		     <value>2023-12-07T20:09:44+07:00</value>
+		  </parameter>
+                  <parameter>
+	             <valueName>EventMagnitude</valueName>
+	             <value>5.6</value>
+	          </parameter>
+	          <parameter>
+	             <valueName>EventDepth</valueName>
+	             <value>12 km</value>
+	          </parameter>
+                  <resource>
+                     <resourceDesc>Epicenter Map</resourceDesc>
+                     <mimeType>image/gif</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.gif
+                     </uri>
+                  </resource>
+                  <resource>
+                     <resourceDesc>Intensity Shakemap</resourceDesc>
+                     <mimeType>image/jpeg</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.mmi.jpg
+                     </uri>
+                  </resource>
+                  <resource>
+                     <resourceDesc>Peak Ground Acceleration Shakemap</resourceDesc>
+                     <mimeType>image/jpeg</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.pga.jpg
+                     </uri>
+                  </resource>
+                  <resource>
+                     <resourceDesc>Peak Ground Velocity Shakemap</resourceDesc>
+                     <mimeType>image/jpeg</mimeType>
+                     <uri>
+                         https://bmkg-content-inatews.storage.googleapis.com/20231207201303.pgv.jpg
+                     </uri>
+                  </resource>
+	          <area>
+	             <areaDesc>232 km NorthWest KEP-TALAUD-SULUT, 235 km NorthEast KEP-SANGIHE-SULUT, 377 km NorthEast SIAUTAGULANDANGBIARO-SULUT, 479 km NorthEast MANADO-SULUT, and 2461 km NorthEast JAKARTA-INDONESIA</areaDesc>
+	             <circle>5.74,125.50 300</circle>
+	          </area>
+	        </info>
+</alert>

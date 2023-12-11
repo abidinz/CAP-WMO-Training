@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+	<identifier>53012541600000_20231209211721</identifier>
+	<sender>Yiliang_County_Meteorological_Bureau</sender>
+	<sent>2023-12-09T21:17:21+08:00</sent>
+	<status>Actual</status>
+	<msgType>Cancel</msgType>
+	<scope>Public</scope>
+	<note>The Yiliang County Meteorological Bureau lifted the strong wind blue warning issued on December 9, 2023 at 21:17:12.</note>
+	<references>Yiliang_County_Meteorological_Bureau,53012541600000_20231209131851,2023-12-09T21:17:21+08:00</references>
+	<info>
+		<language>en-US</language>
+		<category>Met</category>
+		<event>gale</event>
+		<urgency>Unknown</urgency>
+		<severity>Minor</severity>
+		<certainty>Unknown</certainty>
+		<effective>2023-12-09T21:17:21+08:00</effective>
+		<onset>2023-12-09T21:17:21+08:00</onset>
+		<expires>2023-12-10T03:17:21+08:00</expires>
+		<senderName></senderName>
+		<headline>Yiliang County Meteorological Bureau lifted the blue warning for strong winds [Level IV/General]</headline>
+		<description>The Yiliang County Meteorological Bureau lifted the strong wind blue warning issued on December 9, 2023 at 21:17:12.</description>
+		<instruction></instruction>
+		<area>
+			<areaDesc>Yiliang County</areaDesc>
+			<geocode>
+				<valueName>CPEAS Geographic Code</valueName>
+				<value>530125000000</value>
+			</geocode>
+		</area>
+	</info>
+	<info>
+		<language>zh-CN</language>
+		<category>Met</category>
+		<event>大风</event>
+		<urgency>Unknown</urgency>
+		<severity>Minor</severity>
+		<certainty>Unknown</certainty>
+		<effective>2023-12-09T21:17:21+08:00</effective>
+		<onset>2023-12-09T21:17:21+08:00</onset>
+		<expires>2023-12-10T03:17:21+08:00</expires>
+		<senderName/>
+		<headline>宜良县气象局解除大风蓝色预警[Ⅳ级/一般]</headline>
+		<description>宜良县气象局2023年12月09日21时17分12秒解除2023年12月09日13时19分51秒发布的大风蓝色预警。</description>
+		<area>
+			<areaDesc>宜良县</areaDesc>
+			<geocode>
+				<valueName>CPEAS Geographic Code</valueName>
+				<value>530125000000</value>
+			</geocode>
+		</area>
+	</info>
+</alert>

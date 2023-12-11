@@ -1,0 +1,9 @@
+name: cap-xml-simple
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - lxml
+  - xmlschema
+  - pip:
+     - xmlformatter

@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+    <identifier>a29ed565-1af2-4a6e-86b5-e953a9f5b970</identifier>
+    <sender>PAGASA-DOST</sender>
+    <sent>2023-12-07T04:50:50+08:00</sent>
+    <status>Actual</status>
+    <msgType>Update</msgType>
+    <scope>Public</scope>
+    <references>PAGASA-DOST,3179f800-c5ee-42a6-bf58-33483555fd2e,2023-12-06T17:04:44+08:00</references>
+    <info>
+        <category>Met</category>
+        <event>General Flood Advisory (Final)</event>
+        <responseType>AllClear</responseType>
+        <urgency>Past</urgency>
+        <severity>Minor</severity>
+        <certainty>Unlikely</certainty>
+        <expires>2023-12-07T16:50:50+08:00</expires>
+        <senderName>PAGASA-DOST</senderName>
+        <headline>General Flood Advisory (Final)</headline>
+        <description>Under present weather conditions, Northeast Monsoon affecting Northern Luzon.
+            The 12-hour rainfall forecast is light rains and thunderstorms.
+            WATERCOURSES NO LONGER TO BE AFFECTED :
+
+            + **Camiguin** - All rivers and its tributaries
+            + **Lanao Del Norte** - Rivers and its tributaries particularly Mandulog, Agus, Liangan
+            and Maranding.
+            + **Misamis Occidental** - Rivers and its tributaries particularly Clarin, Palilan and
+            Aloran.
+            + **Misamis Oriental** - Rivers and its tributaries particularly Eastern Cagayan De Oro,
+            Odiongan, Gingoog, Balatukan, Cabulig, Upper/Lower Tagoloan, Middle/Lower Western
+            Cagayan De Oro, Iponan, and Alubijid.
+            + **Bukidnon** - Rivers and its tributaries particularly Upper Cagayan De Oro.
+        </description>
+        <instruction>With this development and unless significant rain occurs, this is the final
+            general flood advisory for this event.</instruction>
+        <web>http://www.pagasa.dost.gov.ph/index.php/26-hydromet/1582-flood-forecast-terms-and-symbols</web>
+        <contact>PAGASA-DOST</contact>
+        <parameter>
+            <valueName>layer:Google:Region:0.1</valueName>
+            <value>Region 10 (Northern Mindanao)</value>
+        </parameter>
+        <area>
+            <areaDesc>Camiguin</areaDesc>
+            <polygon>9.2567397656584,124.71127933839 9.2036857544791,124.77809106637
+                9.0811061055197,124.7822715068 9.1182998241708,124.67673439888
+                9.2567397656584,124.71127933839 </polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>101800000</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Lanao Del Norte</areaDesc>
+            <polygon>8.2637018555814,124.58767629302 8.0079628806503,124.59854194074
+                8.1187647090304,124.53460737082 8.2260605317188,124.31397566585
+                8.0579232076135,124.2638488863 8.001190683192,124.15695334226
+                7.9407753443272,124.12918610996 7.6945054948195,123.99054370854
+                7.6952898819786,123.85271560872 7.8382440668465,123.59162778452
+                7.9557316269562,123.67309399555 8.2028349928129,124.01399380198
+                8.1908282645234,124.16986895957 8.3293412678372,124.24839842644
+                8.3259783510998,124.50664491276 8.2637018555814,124.58767629302 </polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>103500000</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Misamis Occidental</areaDesc>
+            <polygon>8.0205035028015,123.64609350015 8.0272993598568,123.63466123027
+                8.0280425151195,123.63312641274 8.2275966630773,123.55517510849
+                8.6226055418762,123.55029294204 8.5998347052162,123.74782635313
+                8.431643560786,123.83836010188 8.1654759618766,123.86794240755
+                8.0205035028015,123.64609350015 </polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>104200000</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Misamis Oriental</areaDesc>
+            <polygon>8.6195276329482,124.47958705685 8.5193932552892,124.58142352809
+                8.4998023856442,124.74626281302 8.9003945382799,124.79173507591
+                9.0087622157744,124.87061992854 8.8290668207996,125.07903012725
+                8.8964451889728,125.18658728472 9.1042657640778,125.20378430144
+                8.8701870628473,125.29761177764 8.6461583278371,125.31708904885
+                8.5989514033958,125.30266436844 8.6124923896812,125.01443652868
+                8.3980702232308,124.63071522516 8.2637018555814,124.58767629302
+                8.3259783510998,124.50664491276 8.3293412678372,124.24839842644
+                8.5439169586774,124.31691677803 8.6195276329482,124.47958705685 </polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>104300000</value>
+            </geocode>
+        </area>
+        <area>
+            <areaDesc>Bukidnon</areaDesc>
+            <polygon>8.5989514033958,125.30266436844 8.1551430369374,125.27047655948
+                7.9980713496152,125.39861450968 7.6636680591945,125.43177921394
+                7.5933593839057,125.29035220527 7.5937415464445,125.26378197814
+                7.4697007952023,125.11513856002 7.4126851908512,124.90554598442
+                7.6108541816393,124.80915241862 7.901010298366,124.59990712814
+                8.0079628806503,124.59854194074 8.2637018555814,124.58767629302
+                8.3980702232308,124.63071522516 8.6124923896812,125.01443652868
+                8.5989514033958,125.30266436844 </polygon>
+            <geocode>
+                <valueName>SAME</valueName>
+                <value>101300000</value>
+            </geocode>
+        </area>
+    </info>
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" />
+            <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" />
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" />
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+                <DigestValue>hkmrnBiY4EWlcl0+92gGU/n89rk=</DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>QrkSW0l5gVRTTo/JXMCRczWRULQQ7I5L1tk11mIGXVSTW+Uc37bNeikxXS4O8Gt5
+            jImqd4UNppwc/Kc3a1RlWOe1O5iUy+tNbKIOdz7NehkdAIOJUXQri6oAOiJosqpI
+            FFEUl6VCxxAhf2DdrVt4Rn+m28jxVD2j5GhFgFpvjwUP2EvN88TzSL6JDlRh0V1J
+            ioKnMaX22o3wI2mABiDjWTZRo4MERpctR0jnw8UXsuNgU1oBYi4s2QKFf+JgWrij
+            0EZjDMStL+cD2Wwe+giJIRetIv8+0cWIr4OX0UdOCwDUdsKg6XJxpIKIxBvMV1+D
+            On3cL8U7k5EtkITMehbeLFxRui4+0cyUruVIkZrc1RFpMXQ0+M1GSMJzCbNIPyrX
+            uAzflyUaVWSSN8O0qx0VLji8chuXuZRDnxXSe7ctyMhhH68LXGYorU8ApnFY2SWf
+            cT13KFG31n3hSSq42FYn0u9Hya03EONKaT0dsXhB4aw/6YESLLc+ax7g1qW0SlF2
+            Pu7I7VnRWmhR+0wu2O9MragrJ5m/XVQEAhoK6r+Tt6ABYn64PoRBiFdhqjyEnR9s
+            1qAKPezoMQ7wnMuIVWIbss/Cnx1D0yWvQegGvSi97zzIAGVtmxD+K6jPGMjS6ZrQ
+            8aZj4RpnbcDpCA8LP4hgzEb2Y83+9BmWS9vQ6S7ehg8=</SignatureValue>
+        <KeyInfo>
+            <KeyValue>
+                <RSAKeyValue>
+                    <Modulus>
+                        1pm7X28TTIESx7uWklHbVIlO0Y+fUBZ7LynhaRQ9w1rMsMhF0dNEvUdYBKVF1xPz
+                        SGD0IrbU6Uemw8Xb/sOy263ZOkSxqWIh3UEluOW7s6J3Hgv8UMDZkWDgj3+m2qWT
+                        UTgbNO3drHGvlRBg6liD15iNusSdSMw/kqmHxe/9tnStpsHo/u57rsH3/ROTvuz2
+                        yHD2t7I7zo0Kv7mfAAHodU4QoL8/7c3u29szxRu13M4SRkiLKwbgrwlsMCvXhkys
+                        oEKlX8/SnXDL8iSPExAiP7xVpfbmh8TNiGvtbjH7Ro2EYjUsEcv9qC7G5jLu7Klt
+                        8TkTobHqES26/F5/u42Ra3rIDunTxczbIHF1qoumAzdsJmFCBc9D1IKTTWKR3D2J
+                        eAZfpuvMeOEcpRxBayYf2jOBx8iD8gag5cIZWl2/62IfUxTk92A00M5QrzTocNkg
+                        0U5K1gN5WmhObUN/3fa/Ob5uriELGzRdzXJ+3QE8FpPmSPJZFA//UWmpJqsboO7p
+                        AhbB8efPIV42nxjwQEbJdkxUOlfAyPMRGcp4RhmaAnX7KmB33j4klYeNktH+OeV8
+                        S9q/nMJoA/d76K1hCbo9PJTa/UxwZJYh0LEs1YnHP/5wgydZJcyNjmcu7P5ur90L
+                        qyr2FB0fZYAmWi6SEaA0F7yi2Y0uqV4FP7dfcbfOf+E=
+</Modulus>
+                    <Exponent>
+                        AQAB
+</Exponent>
+                </RSAKeyValue>
+            </KeyValue>
+        </KeyInfo>
+    </Signature>
+</alert>
