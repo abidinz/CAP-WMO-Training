@@ -1,24 +1,49 @@
 <alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
-    <identifier></identifier>
-    <sender></sender>
-    <sent></sent>
-    <status></status>
-    <msgType></msgType>
-    <scope></scope>
+    <identifier>bmkg-pws-20231212-013</identifier>
+    <sender>pws@bmkg.go.id</sender>
+    <sent>2023-12-12T02:00:00+00:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
     <info>
-        <language></language>
-        <category></category>
-        <event></event>
-        <urgency></urgency>
-        <severity></severity>
-        <certainty></certainty>
-        <effective></effective>
-        <headline></headline>
-        <description></description>
-        <instruction></instruction>
+        <language>en</language>
+        <category>Met</category>
+        <event>Flash Flood</event>
+        <urgency>Expected</urgency>
+        <severity>Minor</severity>
+        <certainty>Likely</certainty>
+        <effective>2023-12-12T04:00:00+00:00</effective>
+        <expires>2023-12-13T04:00:00+00:00</expires>
+        <headline>Watch for The Flash Flood on River Stream</headline>
+        <description>
+            Moderate Rain is expected in river basin.
+            Expect minor flash flood on river bank
+        </description>
+        <instruction>
+            Citizen who lives on the river bank.
+            Prepare for minor flash flood.
+        </instruction>
         <area>
-            <areaDesc></areaDesc>
-            <polygon></polygon>
+            <areaDesc>Kec. Cisarua, Bogor</areaDesc>
+            <polygon>
+                -6.69629578195355,106.93683472147322
+                -6.69616791351035,106.93902340402937
+                -6.69926074105581,106.94010257720947
+                -6.70260602987046,106.94112625589705
+                -6.70669772782028,106.94245663156843
+                -6.70961108795935,106.94336622789273
+                -6.71025040883699,106.94186419084436
+                -6.69629578195355,106.93683472147322
+            </polygon>
+            <polygon>
+                -6.682770319484863,106.92757338121301
+                -6.682471953045466,106.92997664049035
+                -6.683745968249652,106.93512439727783
+                -6.689014984119747,106.93881720140344
+                -6.691274009529123,106.94186419084436
+                -6.692126469232411,106.93482607438928
+                -6.682770319484863,106.92757338121301
+            </polygon>
         </area>
     </info>
 </alert>

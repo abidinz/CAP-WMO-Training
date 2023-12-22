@@ -5,5 +5,3 @@ channels:
 dependencies:
   - lxml
   - xmlschema
-  - pip:
-     - xmlformatter
